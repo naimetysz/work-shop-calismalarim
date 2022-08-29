@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.all{
+     display: block;
+     background-color: blue;
+     background-image: url(./img/photo1.png);
+     
+     
+
+ }
