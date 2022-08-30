@@ -2,12 +2,13 @@
 
 .sayfa{
     display:grid;
-    grid-template-columns: 350px 720px;
+    grid-template-columns: 100px 300px;
     grid: gap 10px;
     width: 1080px;
     margin: auto;
 }
 .ust{
+    text-align: center;
     height: 200px;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -16,7 +17,8 @@
     border: 10px solid blue;
 }
 .menu{
-    height: 50px;
+    text-align: center;
+    height: 100px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
