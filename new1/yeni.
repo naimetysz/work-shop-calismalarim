@@ -1,0 +1,51 @@
+.ust{
+    height: 200px;
+    grid-column-start:1;
+    grid-column-end:3;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/ 
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border:10px solid #000;  
+}
+ .menu{
+    height: 50px;
+    grid-column-start:1;
+    grid-column-end:3;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border:10px solid #000;
+}
+ .sol{
+    min-height: 300px;/*sonra kaldırılacak*/
+    grid-column-start:1;
+    grid-column-end:2;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border:10px solid #000; 
+}
+ 
+.sag{
+    min-height: 300px;/*sonra kaldırılacak*/
+    grid-column-start:2;
+    grid-column-end:3;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border:10px solid #000; 
+}
+.alt{
+    height: 100px;
+     grid-column-start:1;
+    grid-column-end:3;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/
+    
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border:10px solid #000; 
+}
+ 
