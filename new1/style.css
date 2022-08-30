@@ -1,0 +1,31 @@
+/* bu calisma css in grid ozelligini daha iyi anlamak adina yapilmistir */
+*{
+    padding: o;
+    
+}
+.sayfa{
+    display:grid;
+    grid-template-columns: 350px 720px;
+    grid: gap 10px;
+    width: 1080px;
+    margin: auto;
+}
+.ust{
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 10px solid blue;
+}
+.menu{
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 10px solid red;
+}
+.sol{
+    
+}
