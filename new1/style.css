@@ -1,8 +1,5 @@
 /* bu calisma css in grid ozelligini daha iyi anlamak adina yapilmistir */
-*{
-    padding: o;
-    
-}
+
 .sayfa{
     display:grid;
     grid-template-columns: 350px 720px;
@@ -14,8 +11,8 @@
     height: 200px;
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     border: 10px solid blue;
 }
 .menu{
@@ -27,5 +24,31 @@
     border: 10px solid red;
 }
 .sol{
+    min-width: 300px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border:10px solid #000; 
+}
+.sag{
+min-height: 300px;/*sonra kaldırılacak*/
+grid-column-start:2;
+grid-column-end:3;
+/* grid-column:start/end  şeklinde de kullanılabilir.*/
+
+grid-row-start: 3;
+grid-row-end: 4;
+border:10px solid #000; 
+}
+.alt{
+
+    height: 100px;
+     grid-column-start:1;
+    grid-column-end:3;
+    /* grid-column:start/end  şeklinde de kullanılabilir.*/
     
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border:10px solid #000; 
 }
