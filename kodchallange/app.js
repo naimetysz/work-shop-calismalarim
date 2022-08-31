@@ -3,11 +3,35 @@
 //! Q-1
 //? Ask the user to input a number. Check the input of the user, if it is not a valid number
 //? then keep getting input from the user until provides a valid number.
+const valinN =()=>{
+    let num = prompt("enter a valid number")
+    if(Number(num)){
+        return "it is a valid number"
+        else {
+            return validN()
+
+        }
+    }        //recursion
+
+}
+console.log(validN());
+
 
 
 //! Q-2
 //? Write a JavaScript program to compute the greatest common divisor (GCD) (OBEB) of two positive integers.
+const findGcd = (a,b) => {
+    let gcd;
+    if(a==0|| b==0){
+        return 'please enter a number'
 
+    }
+    for (let i =1; i<8 i++){
+        
+    }
+
+}
+console.log(findGcd(3,6))
 
 //! Q-3
 //? Write a code that displays the factors (tam bolen) of a number entered by the user.
